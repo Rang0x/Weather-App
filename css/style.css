@@ -1,0 +1,60 @@
+:root
+{
+    --white-text: white;
+    --black-text: black; 
+}
+
+body
+{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.container
+{
+    border-radius: 60px !important;
+}
+
+.whitetext
+{
+    color: var(--white-text) !important;
+}
+
+.homePage {
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8) , rgba(255, 255, 255, 0.8)) , url(../imgs/bg2.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+
+.nextDays, .hourlyDegree
+{
+    background-color: rgba(255, 255, 255, 0.352);
+}
+
+.hourlyDegree
+{
+    margin-top: 5em;
+    border-radius: 10px;
+}
+
+.row
+{
+    background-image: url(../animations/cloudy.gif);
+    background-repeat: no-repeat;
+    background-position: 10% 60%;
+    background-size: cover;
+}
+
+.hourDegCard
+{
+    height: 10%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.hourDegCard h5
+{
+    font-size: 1rem;
+    letter-spacing: 0;
+}

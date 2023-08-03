@@ -1,0 +1,26 @@
+@media (max-width: 1000px) {
+
+.homePage {
+    height: 100vh !important;
+}
+
+.hourlyDegree, .nextDays {
+    display: none !important;
+}
+
+.thisDay {
+    flex-direction: column-reverse;
+}
+
+#searchId {
+    width: 90% !important;
+    margin: auto !important;
+}
+
+.thisday {
+    padding: 20px 20px !important;
+    margin: auto;
+}
+
+}
+
