@@ -48,6 +48,7 @@ function currentDayDetails()
         case "Moderate rain" :
         case "Torrential rain shower" :
         case "Patchy light rain" :
+        case "Moderate rain at times" :
         case "Moderate rain" :
             thisDay.style.backgroundImage = "url(https://rang0x.github.io/Weather-App/animations/rainnny.gif)";
         break;
