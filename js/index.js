@@ -41,7 +41,7 @@ function currentDayDetails()
     `
     switch(ourData.current.condition.text)
     {
-        case "Sunny" : thisDay.style.backgroundImage = "url('../animations/sunny.gif')";
+        case "Sunny" : thisDay.style.backgroundImage = "url(https://rang0x.github.io/Weather-App/animations/sunny.gif)";
         break;
         case "Light rain" :
         case "Light rain shower" :
@@ -49,19 +49,19 @@ function currentDayDetails()
         case "Torrential rain shower" :
         case "Patchy light rain" :
         case "Moderate rain" :
-            thisDay.style.backgroundImage = "url('../animations/rainnny.gif')";
+            thisDay.style.backgroundImage = "url(https://rang0x.github.io/Weather-App/animations/rainnny.gif)";
         break;
         case "Cloudy" :
         case "Clear" :
         case "Overcast" :
         case "Partly cloudy" :
-            thisDay.style.backgroundImage = "url('../animations/cloudy.gif')";
+            thisDay.style.backgroundImage = "url(https://rang0x.github.io/Weather-App/animations/cloudy.gif)";
         break;
         case "Patchy snow possible" :
         case "Patchy light snow" :
         case "Light snow" :
         case "Blowing snow" :
-            thisDay.style.backgroundImage = "url('../animations/snowy.gif')";
+            thisDay.style.backgroundImage = "url(https://rang0x.github.io/Weather-App/animations/snowy.gif)";
         break;
     }
     let hourlyDetails = ``;

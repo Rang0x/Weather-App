@@ -40,7 +40,7 @@ body
 
 .row
 {
-    background-image: url(../animations/cloudy.gif);
+    background-image: url(https://rang0x.github.io/Weather-App/animations/cloudy.gif);
     background-repeat: no-repeat;
     background-position: 10% 60%;
     background-size: cover;
